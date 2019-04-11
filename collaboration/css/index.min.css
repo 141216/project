@@ -1,0 +1,110 @@
+body{
+    background-color: #dddddd;
+    color: white;
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+label{
+    font-size: 17px;
+    line-height: 30px;
+}
+
+
+
+.allContainer{
+    width: 500px;
+    margin: 65px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #2980b9;
+    padding: 35px;
+    box-shadow: 0 12px 15px 0 rgba(0,0,0,.24), 0 17px 50px 0 rgba(0,0,0,.19);
+}
+.title{
+    text-align: center;
+    font-size: 55px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    
+}
+.operation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+#practiseCount,#practiseSymbolCount,#practiseNumber,#isMultiply,#isFraction,#isBracket{
+    display: flex;
+    width: 350px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+#practiseCount input{
+    width: 230px;
+    height: 25px;
+    background-color: transparent;
+    border: rgba(0,0,0,.24) 1px solid;
+    outline: none;
+    text-indent: 10px;
+
+}
+#practiseSymbolCount select{
+    width: 232px;
+    height: 25px;
+    background-color: transparent;
+    border: rgba(0,0,0,.24) 1px solid;
+    outline: none;
+
+}
+#practiseNumber input{
+    width: 78px;
+    height: 25px;
+    background-color: transparent;
+    border: rgba(0,0,0,.24) 1px solid;
+    outline: none;
+    text-indent: 10px;
+}
+#buttonPush{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    border-top: solid 1px #dddddd;
+}
+#buttonPush button{
+    outline: none;
+    width: 125px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: #e67e22;
+    border: solid 1px rgba(0,0,0,.24);
+    font-size: 17px;
+    letter-spacing: 5px;
+    border-radius: 15px;
+    box-shadow: 0 12px 15px 0 rgba(0,0,0,.24), 0 17px 50px 0 rgba(0,0,0,.19);
+}
+/* 滑块按钮 */
+.moveOperation{
+    width: 160px;
+}
+.moveButton{
+    width: 85px;
+    height: 35px;
+    border-radius:25px;
+    background-color: white;
+}
+.moveButton:hover{
+    cursor: pointer;
+}
+.moveCircle{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #e67e22;
+    text-align: center;
+    line-height: 35px;
+    font-size: 12px;
+    position: relative;
+    left: 0px;
+}
